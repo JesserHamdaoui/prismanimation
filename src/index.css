@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Geometos";
+  src: url(assets/Geometos.ttf) format("truetype");
+}
+
+* {
+  font-family: "Geometos", sans-serif;
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+.masked {
+  mask-image: url(assets/mask.svg);
+}
