@@ -1,18 +1,26 @@
 {
   "files": {
-    "main.css": "/prismanimation/static/css/main.d5b0e009.css",
-    "main.js": "/prismanimation/static/js/main.307778e0.js",
-    "static/media/animation-production.mp4": "/prismanimation/static/media/animation-production.3296baea152754646c4f.mp4",
+    "main.css": "/prismanimation/static/css/main.be612140.css",
+    "main.js": "/prismanimation/static/js/main.315162bf.js",
+    "static/media/scrolling-container-video.mp4": "/prismanimation/static/media/scrolling-container-video.4bced626faf3ea71b9c6.mp4",
     "static/media/scroll-animation-image.jpg": "/prismanimation/static/media/scroll-animation-image.a4a531712733ce045d8c.jpg",
+    "static/media/project1.png": "/prismanimation/static/media/project1.1cd1c4d4ed6f415533a0.png",
+    "static/media/project4.png": "/prismanimation/static/media/project4.c8367c27d172c458f995.png",
+    "static/media/project3.png": "/prismanimation/static/media/project3.1c8f9a98b02b1a68891c.png",
+    "static/media/product1.png": "/prismanimation/static/media/product1.d1a4a674ae358d9876d8.png",
+    "static/media/product3.png": "/prismanimation/static/media/product3.b89b88ec1e5e7a76f157.png",
+    "static/media/project2.png": "/prismanimation/static/media/project2.24e59955c68dfa73dfd2.png",
+    "static/media/product2.png": "/prismanimation/static/media/product2.a97d2749c2408c2efd4d.png",
+    "static/media/product4.png": "/prismanimation/static/media/product4.01e896b10c7ee359c936.png",
     "static/media/Geometos.ttf": "/prismanimation/static/media/Geometos.f643a91ab9ecfc783257.ttf",
     "static/media/mask.svg": "/prismanimation/static/media/mask.7b62b5ac5b46faf63e5f.svg",
     "static/media/logo.svg": "/prismanimation/static/media/logo.df916d09464c6cbbd9a4cb5ed422e1b3.svg",
     "index.html": "/prismanimation/index.html",
-    "main.d5b0e009.css.map": "/prismanimation/static/css/main.d5b0e009.css.map",
-    "main.307778e0.js.map": "/prismanimation/static/js/main.307778e0.js.map"
+    "main.be612140.css.map": "/prismanimation/static/css/main.be612140.css.map",
+    "main.315162bf.js.map": "/prismanimation/static/js/main.315162bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5b0e009.css",
-    "static/js/main.307778e0.js"
+    "static/css/main.be612140.css",
+    "static/js/main.315162bf.js"
   ]
 }
