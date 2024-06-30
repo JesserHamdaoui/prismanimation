@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/prismanimation/static/css/main.d5b0e009.css",
+    "main.js": "/prismanimation/static/js/main.307778e0.js",
+    "static/media/animation-production.mp4": "/prismanimation/static/media/animation-production.3296baea152754646c4f.mp4",
+    "static/media/scroll-animation-image.jpg": "/prismanimation/static/media/scroll-animation-image.a4a531712733ce045d8c.jpg",
+    "static/media/Geometos.ttf": "/prismanimation/static/media/Geometos.f643a91ab9ecfc783257.ttf",
+    "static/media/mask.svg": "/prismanimation/static/media/mask.7b62b5ac5b46faf63e5f.svg",
+    "static/media/logo.svg": "/prismanimation/static/media/logo.df916d09464c6cbbd9a4cb5ed422e1b3.svg",
+    "index.html": "/prismanimation/index.html",
+    "main.d5b0e009.css.map": "/prismanimation/static/css/main.d5b0e009.css.map",
+    "main.307778e0.js.map": "/prismanimation/static/js/main.307778e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5b0e009.css",
+    "static/js/main.307778e0.js"
+  ]
+}
