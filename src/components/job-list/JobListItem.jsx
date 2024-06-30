@@ -7,7 +7,7 @@ export default function JobListItem({
   jobTitle,
   jobDescription,
   jobIcon,
-  jobButtonLink = "",
+  jobButtonLink = "/about",
 }) {
   return (
     <CardView minHeight="400px" isCentered={true}>

@@ -55,16 +55,20 @@ export default function Services() {
           engaging storytelling to captivate your audience.
         </p>
         <div className="btns flex gap-3 justify-center items-center">
-          <button className="bg-blue-500 text-white px-4 py-2 mt-4 rounded">
-            Learn More
-          </button>
-          <button className="text-blue-500 px-4 py-2 mt-4 ">
-            Contact us
-            <FontAwesomeIcon
-              icon={faArrowRightToBracket}
-              className="text-blue-500 ml-2"
-            />
-          </button>
+          <a href="/about">
+            <button className="bg-blue-500 text-white px-4 py-2 mt-4 rounded">
+              Learn More
+            </button>
+          </a>
+          <a href="#contact-us">
+            <button className="text-blue-500 px-4 py-2 mt-4 ">
+              Contact us
+              <FontAwesomeIcon
+                icon={faArrowRightToBracket}
+                className="text-blue-500 ml-2"
+              />
+            </button>
+          </a>
         </div>
       </section>
     </div>

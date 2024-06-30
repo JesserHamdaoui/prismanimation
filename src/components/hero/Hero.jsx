@@ -15,9 +15,11 @@ export default function Hero() {
                 <h2 className="text-xl text-gray-800 w-[400px]">
                   Bringing Animation to Life with Creativity and Expertise
                 </h2>
-                <button className="bg-blue-500 hover:bg-blue-700 text-white w-56 font-bold py-2 px-4 rounded">
-                  Get Started
-                </button>
+                <a href="#call-to-action">
+                  <button className="bg-blue-500 hover:bg-blue-700 text-white w-56 font-bold py-2 px-4 rounded">
+                    Get Started
+                  </button>
+                </a>
               </div>
               <div className="w-1/2 bg-cover">
                 <img src={image} alt="Hero" className="masked" />

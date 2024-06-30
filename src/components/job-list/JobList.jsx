@@ -54,16 +54,20 @@ export default function JobList() {
         bring your talents and creativity to our collaborative environment.
       </p>
       <div className="btns flex gap-3 justify-center items-center mb-8 mt-5">
-        <button className="bg-blue-500 text-white px-4 py-2 mt-4 rounded">
-          Learn More
-        </button>
-        <button className="text-blue-500 px-4 py-2 mt-4 rounded">
-          Contact us
-          <FontAwesomeIcon
-            icon={faArrowRightToBracket}
-            className="text-blue-500 ml-2 "
-          />
-        </button>
+        <a href="/about">
+          <button className="bg-blue-500 text-white px-4 py-2 mt-4 rounded">
+            Learn More
+          </button>
+        </a>
+        <a href="#contact-us">
+          <button className="text-blue-500 px-4 py-2 mt-4 rounded">
+            Contact us
+            <FontAwesomeIcon
+              icon={faArrowRightToBracket}
+              className="text-blue-500 ml-2 "
+            />
+          </button>
+        </a>
       </div>
     </div>
   );

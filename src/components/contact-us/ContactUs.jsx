@@ -8,7 +8,7 @@ import React from "react";
 
 export default function ContactUs() {
   return (
-    <div className="bg-gray-200 py-48 z-40">
+    <div className="bg-gray-200 py-48 z-40" id="contact-us">
       <div className="container mx-auto">
         <div className="text-center flex gap-4 flex-col">
           <h1 className="text-2xl font-bold">Prismanimation</h1>

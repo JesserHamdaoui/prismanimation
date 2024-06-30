@@ -1,6 +1,7 @@
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
+import submitApplication from "../../utils/submitApplication";
 
 export default function JobApplicationForm() {
   const [name, setName] = useState("");
@@ -10,9 +11,35 @@ export default function JobApplicationForm() {
   const [experience, setExperience] = useState("");
   const [additionalInfo, setAdditionalInfo] = useState("");
 
-  const handleSubmit = (e) => {
+  const [submitting, setSubmitting] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // TODO: Handle form submission
+    setSubmitting(true);
+
+    const formData = {
+      name,
+      email,
+      position,
+      portfolioLink,
+      experience,
+      additionalInfo,
+    };
+
+    try {
+      await submitApplication(formData); // Call sendEmail function from sendEmail.js
+      // Reset form after successful submission
+      setName("");
+      setEmail("");
+      setPosition("");
+      setPortfolioLink("");
+      setExperience("");
+      setAdditionalInfo("");
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -91,7 +118,7 @@ export default function JobApplicationForm() {
             value={experience}
             onChange={(e) => setExperience(e.target.value)}
             required
-            className="border border-gray-300 rounded-md px-4 py-2"
+            className="border border-gray-300 rounded-md px-4 py-2 text-black"
           ></textarea>
         </div>
 
@@ -103,12 +130,13 @@ export default function JobApplicationForm() {
             id="additionalInfo"
             value={additionalInfo}
             onChange={(e) => setAdditionalInfo(e.target.value)}
-            className="border border-gray-300 rounded-md px-4 py-2"
+            className="border border-gray-300 rounded-md px-4 py-2 text-black"
           ></textarea>
         </div>
 
         <button
           type="submit"
+          disabled={submitting}
           className="bg-blue-500 text-white rounded-md px-10 py-2 hover:bg-blue-600 border-2 border-white w-full "
         >
           <FontAwesomeIcon icon={faPaperPlane} className="mr-3" />

@@ -24,9 +24,11 @@ export default function Navbar() {
           <NavbarLink to="/merch" text="Merch" icon={faShoppingCart} />
           <NavbarLink to="/recruitment" text="Recruitment" icon={faUserPlus} />
         </ul>
-        <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 text-sm">
-          Get Started
-        </button>
+        <a href="/#call-to-action">
+          <button className="px-4 py-2 text-white bg-blue-500 rounded hover:bg-blue-600 text-sm">
+            Get Started
+          </button>
+        </a>
       </div>
     </nav>
   );
