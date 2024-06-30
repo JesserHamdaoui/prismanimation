@@ -1,120 +1,80 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import { faReact } from "@fortawesome/free-brands-svg-icons";
+import { faFigma } from "@fortawesome/free-brands-svg-icons";
+import project1 from "../../assets/images/portfolio/project1.png";
+import project2 from "../../assets/images/portfolio/project2.png";
+import project3 from "../../assets/images/portfolio/project3.png";
+import project4 from "../../assets/images/portfolio/project4.png";
 
 export default function PortfolioContainer() {
   const projects = [
     {
-      title: "Project 1",
+      title: "Brown Mystery Movie Poster",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      mainImage: "https://via.placeholder.com/400",
-      images: [
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-      ],
+        "Ready to Go! is an engaging and educational TV show by PrisManimation. Delightful, educational, and safe entertainment for your little ones!",
+      mainImage: project1,
+      images: [project1, project1, project1],
       technologies: [
         {
-          name: "React",
-          icon: faReact,
+          name: "Adobe Photoshop",
         },
         {
-          name: "Tailwind CSS",
+          name: "Adobe Illustrator",
+        },
+      ],
+      link: "",
+      date: "2023-02-15",
+    },
+    {
+      title: "Blue Modern No Smoking Day Template (Poster)",
+      description:
+        "Break free from smoking: choose health, choose life. Your future deserves a smoke-free start.",
+      mainImage: project2,
+      images: [project2, project2, project2],
+      technologies: [
+        {
+          name: "Figma",
+          icon: faFigma,
         },
         {
-          name: "Firebase",
+          name: "Adobe Illustrator",
+        },
+      ],
+      link: "",
+      date: "2023-04-10",
+    },
+    {
+      title: "Black And White Horror Movie Poster",
+      description:
+        "Behind the facade of fatherly warmth lies a chilling secret. Uncover the darkness in 'The Dad', where every smile masks a deadly truth.",
+      mainImage: project3,
+      images: [project3, project3, project3],
+      technologies: [
+        {
+          name: "Adobe Photoshop",
         },
         {
-          name: "Illustrator",
+          name: "Adobe Illustrator",
+        },
+      ],
+      link: "",
+      date: "2023-08-20",
+    },
+    {
+      title: "Black And Red Horror Movie Poster",
+      description: "In solidarity, strength echoes louder than silence.",
+      mainImage: project4,
+      images: [project4, project4, project4],
+      technologies: [
+        {
+          name: "Adobe Photoshop",
+        },
+        {
+          name: "Adobe Illustrator",
         },
       ],
       link: "",
       date: "2022-01-01",
-    },
-    {
-      title: "Project 2",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      mainImage: "https://via.placeholder.com/400",
-      images: [
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-      ],
-      technologies: [
-        {
-          name: "React",
-          icon: faReact,
-        },
-        {
-          name: "Tailwind CSS",
-        },
-        {
-          name: "Firebase",
-        },
-        {
-          name: "Illustrator",
-        },
-      ],
-      link: "",
-      date: "2022-02-01",
-    },
-    {
-      title: "Project 3",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      mainImage: "https://via.placeholder.com/400",
-      images: [
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-      ],
-      technologies: [
-        {
-          name: "React",
-          icon: faReact,
-        },
-        {
-          name: "Tailwind CSS",
-        },
-        {
-          name: "Firebase",
-        },
-        {
-          name: "Illustrator",
-        },
-      ],
-      link: "",
-      date: "2022-03-01",
-    },
-    {
-      title: "Project 4",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-      mainImage: "https://via.placeholder.com/400",
-      images: [
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-        "https://via.placeholder.com/400",
-      ],
-      technologies: [
-        {
-          name: "React",
-          icon: faReact,
-        },
-        {
-          name: "Tailwind CSS",
-        },
-        {
-          name: "Firebase",
-        },
-        {
-          name: "Illustrator",
-        },
-      ],
-      link: "",
-      date: "2022-04-01",
     },
   ];
 

@@ -1,7 +1,7 @@
 import React from "react";
 import { ContainerScroll } from "../../UI/ConatinerScroll";
-import logo from "../../images/logo.svg";
-import video from "../../videos/animation-production.mp4";
+import logo from "../../assets/images/logo.svg";
+import video from "../../assets/videos/scrolling-container-video.mp4";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 

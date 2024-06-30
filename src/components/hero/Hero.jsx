@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../../images/scroll-animation-image.jpg";
+import image from "../../assets/images/scroll-animation-image.jpg";
 
 export default function Hero() {
   return (

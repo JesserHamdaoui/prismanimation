@@ -1,7 +1,7 @@
 import React from "react";
 import CardView from "../../UI/CardView";
-import image from "../../images/scroll-animation-image.jpg";
-import logo from "../../images/logo.svg";
+import image from "../../assets/images/scroll-animation-image.jpg";
+import logo from "../../assets/images/logo.svg";
 
 export default function AboutUs() {
   return (

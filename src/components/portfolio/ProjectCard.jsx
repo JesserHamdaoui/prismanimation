@@ -23,7 +23,13 @@ export default function ProjectCard({
           {images.map((image, index) => (
             <img
               key={index}
-              className="w-[100px] rounded"
+              className={`w-[100px] h-[100px] object-cover rounded ${
+                index === 1
+                  ? "grayscale"
+                  : index === 2
+                  ? "object-left-bottom"
+                  : "object-left-top"
+              }`}
               src={image}
               alt="portfolio"
             />
