@@ -1,7 +1,7 @@
 {
   "name": "prismanimation_website",
   "version": "0.1.0",
-  "homepage": "https://jesserhamdaoui.github.io/prismanimation",
+  "homepage": "https://prismanimation.vercel.app/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
